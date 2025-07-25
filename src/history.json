@@ -6,15 +6,15 @@
       "location": "Toronto",
       "date": "Mar 21 - Mar 24",
       "descriptions": [
-        "Collaborated on the development of an AI-powered scheduling assistant SaaS application as a back-end cloud engineer.",
-        "Engineered resilient RESTful API endpoints using Node and PostgreSQL for seamless front-end integration.",
+        "Collaborated on the development of an AI-powered scheduling assistant SaaS application as a full-stack engineer.",
+        "Engineered resilient RESTful API endpoints using Node and PostgreSQL for seamless back-end integration.",
         "Deployed, managed, and scaled server infrastructure on Google Cloud Platform (GCP) and Firebase.",
         "Integrated Google and Outlook Calendar APIs to dynamically analyze user schedules, identifying optimal times for an enhanced user experience.",
         "Implemented pub/sub architecture for effective post-processing of data after API interactions.",
         "Utilized Docker to containerize API services, transforming the architecture into microservices.",
         "Orchestrated the construction and maintenance of a user-friendly web portal using React, spotlighting personalized available time slots."
       ],
-      "note": "acquired by a leading tech company"
+      "note": "acquired by Apple"
     },
     {
       "company": "Entercom",
