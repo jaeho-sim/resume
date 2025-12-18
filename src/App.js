@@ -17,7 +17,7 @@ function App() {
           <p className="resume-date">{date} <span><FontAwesomeIcon className="location-icon" icon={faMapMarkerAlt} />{location}</span></p>
           <ul>
             {descriptions.map((desc, i) => {
-              return <li key={company+i}><p>{desc}</p></li>
+              return <li key={company+i}><p dangerouslySetInnerHTML={{ __html: desc }} /></li>
             })}
           </ul>
         </div>
@@ -61,19 +61,25 @@ function App() {
             <p>jaeho.code@gmail.com</p>
           </div>
         </div>
+        <div className="resume-summary">
+          <h2>Summary</h2>
+          <p dangerouslySetInnerHTML={{ __html: history.summary }} />
+        </div>
         <div className="resume-body">
           <div className="resume-body-side">
             <div className="resume-content skills">
               <h2>Skills</h2>
-              <p><b>Node · React</b></p>
-              <p>PostgreSQL · NoSQL</p>
-              <p>AWS · GCP</p>
+              <p><b>Node</b></p>
+              <p>React</p>
+              <p><b>PostgreSQL · NoSQL</b></p>
+              <p><b>GCP</b> · AWS</p>
               <p>HTML · SASS</p>
-              <p>Typescript · Sinon · Chai</p>
-              <p>Docker</p>
+              <p>Typescript</p>
+              <p><b>Sinon · Chai</b></p>
+              <p><b>Docker</b></p>
               <p>Serverless</p>
               <p>Alexa</p>
-              <p>TDD · Agile</p>
+              <p><b>TDD</b> · Agile</p>
             </div>
             <div className="resume-content side-text">
               <h2>Certification</h2>
