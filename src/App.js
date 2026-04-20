@@ -62,7 +62,7 @@ function App() {
           </div>
         </div>
         <div className="resume-summary">
-          <h2>Summary</h2>
+          <h2>Professional Summary</h2>
           <p dangerouslySetInnerHTML={{ __html: history.summary }} />
         </div>
         <div className="resume-body">
