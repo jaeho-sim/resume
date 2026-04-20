@@ -1,5 +1,5 @@
 {
-  "summary": "Full-stack engineer with <b>8+ years of experience</b> building and scaling web applications and cloud-native systems. Strong background in <b>React, Node.js, API development, SQL & NoSQL databases, Docker, and cloud platforms (AWS & GCP)</b>. Proven ability to deliver production-ready SaaS products, design resilient back-end systems, and collaborate cross-functionally in agile environments. Experienced across startups and enterprise-scale products, including AI-powered and serverless systems.",
+  "summary": "Full-stack engineer with <b>8+ years of experience</b> building and scaling web applications and cloud-native systems. Strong background in <b>React, Node.js, API development, SQL & NoSQL, Docker, and cloud platforms (AWS & GCP)</b>. Proven ability to deliver production-ready SaaS products, design resilient back-end systems, and collaborate cross-functionally in agile environments. Experienced across startups and enterprise-scale products, including AI-powered and serverless systems.",
   "careers": [
     {
       "company": "Mayday",
@@ -7,24 +7,25 @@
       "location": "Toronto",
       "date": "Mar 21 - Mar 24",
       "descriptions": [
-        "Developed and maintained <b>Node.js / Express REST APIs</b> supporting an AI-powered scheduling assistant SaaS product.",
-        "Designed and optimized <b>SQL data models using PostgreSQL</b>, ensuring reliability and performance of core application workflows.",
-        "<b>Containerized backend services using Docker</b>, enabling a microservices-based architecture and consistent deployment across environments.",
-        "Deployed and operated backend services on <b>Google Cloud Platform (GCP)</b>, leveraging Cloud Run, Firebase, and Pub/Sub for event-driven processing.",
-        "Collaborated as a full-stack engineer, connecting Node.js APIs with a React-based web portal to deliver personalized user experiences."
+        "Developed and scaled an <b>AI-powered scheduling assistant SaaS</b> as a full-stack engineer.",
+        "Designed and implemented <b>RESTful APIs using Node.js and PostgreSQL</b>, supporting core product workflows.",
+        "Deployed, managed, and scaled backend services on <b>Google Cloud Platform (GCP)</b> and Firebase.",
+        "Built and maintained a <b>React-based web portal</b>, delivering personalized scheduling insights to users.",
+        "Integrated <b>Google Calendar and Outlook Calendar APIs</b> to analyze availability and generate optimal scheduling recommendations.",
+        "Implemented <b>pub/sub messaging architecture</b> for asynchronous post-processing and system resilience.",
+        "Containerized backend services with <b>Docker</b>, enabling a microservices-based architecture."
       ],
       "note": "acquired by Apple"
     },
     {
       "company": "Entercom",
-      "title": "Alexa Skills Developer",
+      "title": "Software Engineer",
       "location": "Denver (Remote)",
       "date": "Mar 19 - Mar 20",
       "descriptions": [
-        "Built production-grade <b>Node.js APIs</b> using the Alexa SDK to support a skill with over one million active users.",
-        "Implemented <b>NoSQL data storage using DynamoDB (AWS)</b> to persist user preferences and personalized settings.",
-        "Developed <b>API-driven AWS Lambda functions</b> to update station catalogs through internal services on a scheduled basis.",
-        "Collaborated with AWS engineers to design, test, and iterate on new API features for beta Alexa Skill releases."
+        "Built and maintained the <b>Radio.com Alexa Skill</b>, supporting <b>1M+ active users</b> across 300+ radio stations.",
+        "Developed backend logic using <b>Node.js, DynamoDB (NoSQL) and Alexa SDK</b>, delivering scalable voice experiences.",
+        "Created <b>scheduled AWS Lambda jobs</b> to refresh station catalogs via internal APIs."
       ],
       "note": "now Audacy"
     },
@@ -34,11 +35,10 @@
       "location": "Toronto",
       "date": "May 18 - Feb 19",
       "descriptions": [
-        "Developed <b>Node.js / Express REST APIs</b> consumed by multiple client platforms and internal teams.",
-        "Designed and queried <b>SQL databases (PostgreSQL)</b> to support web and IoT applications.",
-        "Contributed to authentication and authorization <b>API development</b> using <b>AWS Cognito</b>.",
-        "Built and maintained <b>serverless APIs</b> on AWS using Lambda and <b>DynamoDB (NoSQL)</b>.",
-        "Practiced <b>Test-Driven Development (TDD)</b> across backend API services and frontend components"
+        "Contributed to <b>5+ client-facing web and IoT projects</b> as a full-stack engineer.",
+        "Built <b>Node.js/Express APIs</b> backed by <b>PostgreSQL</b>, supporting multi-platform consumption.",
+        "Implemented authentication services using <b>AWS Cognito</b>.",
+        "Modernized internal tooling and marketing platforms using <b>React, Spring Boot, and SASS</b>."
       ]
     },
     {
@@ -47,9 +47,10 @@
       "location": "Toronto",
       "date": "Jul 16 - Dec 17",
       "descriptions": [
-        "Integrated front-end applications with backend API services for a financial web platform.",
-        "Collaborated on a Ruby on Rails application backed by <b>SQL database (PostgreSQL)</b>.",
-        "Integrated <b>Salesforce and Pardot APIs</b> to streamline lead tracking, marketing automation, and sales handoff."
+        "Developed features for a <b>web-based financial platform</b> using React, Ruby on Rails, and jQuery.",
+        "Built and optimized a <b>SEO-focused marketing website</b> to drive lead generation (MQLs).",
+        "Integrated <b>Salesforce and Pardot</b> to streamline marketing-to-sales workflows.",
+        "Developed custom <b>HTML email templates</b> for marketing campaigns."
       ]
     },
     {
@@ -58,10 +59,9 @@
       "location": "Toronto",
       "date": "Oct 15 - Jun 16",
       "descriptions": [
-        "Led front-end development efforts, creating over 50 pages using Angular, JSP, and SASS.",
-        "Supported backend development using <b>SQL databases (MySQL)</b> and Java-based APIs.",
-        "Worked closely with backend teams to integrate frontend features with server-side APIs.",
-        "Designed for compatibility with various devices and browsers."
+        "Built web application platforms from scratch in a collaborative team environment.",
+        "Led front-end development of <b>50+ pages</b> using Angular, JSP, and SASS, ensuring cross-device compatibility.",
+        "Supported backend development using <b>Spring and MySQL</b>."
       ]
     }
   ]

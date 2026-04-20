@@ -1,10 +1,12 @@
 $grey-font: #5c5c5c;
 $grey-dark-font: #333333;
 $grey-background: #808080;
+$grey-divider: #d2d1d1;
 $blue-font: #3679C4;
 $blue-light-font: #7cbbfb;
 // $blue-light-font: #73b4ff;
 $page-padding: 50px;
+$content-top-bottom-margins: 40px;
 
 h1, h2, h3, h4, h5, h6, p, ul, li {
   margin: 0;
@@ -69,6 +71,17 @@ li {
   print-color-adjust: exact;
 }
 
+li::marker {
+  color: $grey-font;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.divider {
+  width: 100%;
+  border-top: 1px solid $grey-divider;
+  margin: 0;
+}
 .resume-page {
   width: 100%;
   background-color: $grey-background;
@@ -113,24 +126,32 @@ li {
 }
 
 .resume-summary {
-  margin-bottom: 43px;
+  margin-bottom: $content-top-bottom-margins;
   p {
-    font-size: 14px;
+    font-size: 11pt;
   }
+}
+
+.resume-skills {
+  margin-top: $content-top-bottom-margins;
+  margin-bottom: $content-top-bottom-margins;
 }
 
 .resume-body {
   width: 100%;
-  display: flex;
+  // display: flex;
+  margin-top: 60px;
+  margin-bottom: $content-top-bottom-margins;
 }
 
 .resume-body-side {
   width: 26%;
-  padding-right: 30px;
+  padding-right: $content-top-bottom-margins;
 }
 
 .resume-body-main {
-  flex: 1;
+  // flex: 1;
+  margin-top: $content-top-bottom-margins;
 }
 
 .resume-content {
@@ -169,6 +190,27 @@ li {
   margin-bottom: 15px;
   span {
     margin-left: 30px;
+  }
+}
+
+.resume-others {
+  margin-top: $content-top-bottom-margins;
+  display: flex;
+  div {
+    flex: 1;
+  }
+  h2 {
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  b {
+    font-weight: 500;
+  }
+  span {
+    font-style: italic;
+    font-size: 9pt;
   }
 }
 

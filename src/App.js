@@ -10,7 +10,7 @@ function App() {
     const historyList = history.careers.map(({ company, title, location, date, descriptions, note }) => (
       // <div className="print-margin"></div>
       <>
-        {company === 'TribalScale' ? <div className="print-margin"></div> : undefined}
+        {company === 'Entercom' ? <div className="print-margin"></div> : undefined}
         <div className="resume-content-item" key={company}>
           <h3>{company}</h3>{note ? <h5> ({note})</h5> : undefined}
           <h4>{title}</h4>
@@ -32,22 +32,9 @@ function App() {
     );
   }
 
-  // const renderProject = () => {
-  //   return (
-  //     <div className="resume-content">
-  //       <h2>Project</h2>
-  //       <div className="resume-content-item">
-  //         <h3>NomNom</h3>
-  //         <p className="resume-date">Apr 20 - Present</p>
-  //         <ul>
-  //           <li><p>A web application that users can share their pictures, reviews, and information about restaurants among their groups</p></li>
-  //           <li><p>A full stack application built with AWS Amplify as its development platform, using React, Lambda(Node), and GraphQL</p></li>
-  //           <li><p>GCP authentication API was used to implement user specific permissions</p></li>
-  //         </ul>
-  //       </div>
-  //     </div>
-  //   )
-  // }
+  const renderDivider = () => {
+    return <div className="divider"></div>;
+};
 
   return (
     <div className="resume-page">
@@ -56,17 +43,13 @@ function App() {
           <h1>Jaeho Sim</h1>
           <span className="resume-phonetic">/dʒæho/</span>
           <div className="resume-contact">
-            <p>3906-65 St Mary St, Toronto</p>
+            <p>16 Grn Gdns Blvd, North York, ON</p>
             <p>647.542.7878</p>
             <p>jaeho.code@gmail.com</p>
           </div>
         </div>
-        <div className="resume-summary">
-          <h2>Professional Summary</h2>
-          <p dangerouslySetInnerHTML={{ __html: history.summary }} />
-        </div>
         <div className="resume-body">
-          <div className="resume-body-side">
+          {/* <div className="resume-body-side">
             <div className="resume-content skills">
               <h2>Skills</h2>
               <p><b>Node</b></p>
@@ -92,10 +75,40 @@ function App() {
               <p>Carleton University</p>
               <p className="side-date">Apr 15</p>
             </div>
+          </div> */}
+          <div className="resume-summary">
+            <h2>Professional Summary</h2>
+            <p dangerouslySetInnerHTML={{ __html: history.summary }} />
           </div>
+          {renderDivider()}
+          <div className="resume-skills">
+            <h2>Core Skills</h2>
+            <ul>
+              <li><p><b>Languages:</b> JavaScript (ES6+), TypeScript, SQL, HTML5, SASS.</p></li>
+              <li><p><b>Backend & Database:</b> RESTful API Development, Node.js, Express, PostgreSQL, MySQL, NoSQL Design.</p></li>
+              <li><p><b>Frontend:</b> React.js, State Management (Context API, Redux), jQuery, Webpack.</p></li>
+              <li><p><b>Cloud & DevOps:</b> AWS, GCP, Firebase, Docker, Serverless Architecture, CI/CD.</p></li>
+              <li><p><b>Testing & Methodologies:</b> TDD (Sinon, Chai), Agile/Scrum, Microservices Architecture.</p></li>
+            </ul>
+          </div>
+          {renderDivider()}
           <div className="resume-body-main">
             {renderHistory()}
             {/* {renderProject()} */}
+          </div>
+        </div>
+        {renderDivider()}
+        <div className="resume-others">
+          <div className="resume-education">
+            <h2>Education</h2>
+            <p><b>Bachelor of Computer Science</b> - Carleton University</p>
+            <p></p>
+            <p><span>Apr 15</span></p>
+          </div>
+          <div className="resume-certification">
+            <h2>Certification</h2>
+            <p><b>AWS Certified Alexa Skill Builder - Specialty</b></p>
+            <p ><span>Feb 19</span></p>
           </div>
         </div>
       </div>
