@@ -43,7 +43,7 @@ function App() {
           <h1>Jaeho Sim</h1>
           <span className="resume-phonetic">/dʒæho/</span>
           <div className="resume-contact">
-            <p>16 Grn Gdns Blvd, North York, ON</p>
+            <p>Toronto, ON</p>
             <p>647.542.7878</p>
             <p>jaeho.code@gmail.com</p>
           </div>
@@ -84,11 +84,12 @@ function App() {
           <div className="resume-skills">
             <h2>Core Skills</h2>
             <ul>
-              <li><p><b>Languages:</b> JavaScript (ES6+), TypeScript, SQL, HTML5, SASS.</p></li>
-              <li><p><b>Backend & Database:</b> RESTful API Development, Node.js, Express, PostgreSQL, MySQL, NoSQL Design.</p></li>
-              <li><p><b>Frontend:</b> React.js, State Management (Context API, Redux), jQuery, Webpack.</p></li>
-              <li><p><b>Cloud & DevOps:</b> AWS, GCP, Firebase, Docker, Serverless Architecture, CI/CD.</p></li>
-              <li><p><b>Testing & Methodologies:</b> TDD (Sinon, Chai), Agile/Scrum, Microservices Architecture.</p></li>
+              <li><p><b>Frontend: </b>React, JavaScript (ES6+), Typescript, HTML5, SASS</p></li>
+              <li><p><b>Backend: </b>Node.js, Express, REST API Development</p></li>
+              <li><p><b>Databases: </b>PostgreSQL, MySQL, DynamoDB (NoSQL)</p></li>
+              <li><p><b>Cloud & DevOps: </b>AWS, GCP, Docker, CI/CD, Serverless</p></li>
+              <li><p><b>Architecture: </b>Microservices, Pub/Sub, Distributed Systems</p></li>
+              <li><p><b>Testing: </b>TDD, Sinon, Chai</p></li>
             </ul>
           </div>
           {renderDivider()}
